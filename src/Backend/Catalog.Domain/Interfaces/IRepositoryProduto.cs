@@ -7,6 +7,6 @@ namespace Catalog.Domain.Interfaces
         Task<IEnumerable<Produto>> ObterTodosAsync();
         Task AdicionarAsync(Produto produto);
         Task AtualizarAsync(Produto produto);
-        Task RemoverAsync(Guid id);
+        Task RemoverAsync(Produto produto);
     }
 }
